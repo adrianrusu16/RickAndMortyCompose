@@ -8,7 +8,7 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 @Composable
 fun CharacterScreen(
     modifier: Modifier = Modifier,
-    characterViewModel: CharacterViewModel
+    characterViewModel: CharacterViewModel = viewModel()
 ) {
     Scaffold(
         content = {
