@@ -1,7 +1,6 @@
 package com.example.jetpackandcompose.di
 
 import com.example.jetpackandcompose.api.CharacterApi
-import com.example.jetpackandcompose.data.CharacterRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
