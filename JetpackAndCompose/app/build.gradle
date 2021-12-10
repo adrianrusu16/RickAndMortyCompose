@@ -39,8 +39,8 @@ android {
         compose true
     }
     composeOptions {
+        kotlinCompilerVersion kotlinVersion
         kotlinCompilerExtensionVersion composeVersion
-        kotlinCompilerVersion '1.5.31'
     }
     packagingOptions {
         resources {
